@@ -18,7 +18,7 @@ DATABASES = {
         'NAME': 'notejamdb',
         'USER': 'sql',
         'PASSWORD': 'sql',
-        'HOST': '10.115.112.2',
+        'HOST': '192.168.1.70',
         'PORT': '3306',
     }
 }
