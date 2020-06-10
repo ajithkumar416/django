@@ -16,8 +16,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'notejamdb',
-        'USER': 'sql',
-        'PASSWORD': 'sql',
+        'USER': 'root',
+        'PASSWORD': 'root',
         'HOST': '192.168.1.70',
         'PORT': '3306',
     }
