@@ -15,11 +15,11 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'notejamdb',
-        'USER': 'sql',
-        'PASSWORD': 'sql@416',
-        'HOST': '10.51.32.3',
-        'PORT': '3306',
+        'NAME': '$sql_dbname',
+        'USER': '$sql_username',
+        'PASSWORD': '$sql_password',
+        'HOST': '$sql_privateip',
+        'PORT': '$sql_port',
     }
 }
 
